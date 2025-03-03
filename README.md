@@ -53,5 +53,5 @@ KinematicTreeBuilder("root", root_position, root_rotation, root_axis, root_const
     .build(root)
 
 target = ... // Set the target position as a Vector3d
-left_effector.ccdik(target) // Move the joints to reach so that the left_effector reach the target position
+left_effector.ccdik(target) // Move the joints so that the left_effector reaches the target position
 ```
