@@ -1,5 +1,8 @@
 # Cyclic Coordinate Descent (CCD) for Inverse Kinematics
 
+## Credits
+This implementation is heavily inspired by [Johnathon Selstad's blog post](https://zalo.github.io/blog/inverse-kinematics/)
+
 ## Usage
 This CCD implementation uses a kinematic tree representation to solve the inverse kinematics problem.
 The nodes of the tree are the joints of the kinematic chain, and the edges are named the end-effectors. 
